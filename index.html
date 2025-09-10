@@ -2,124 +2,229 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Amit Giri</title>
+  <title>Amit Giri | DevOps & Web Developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Amit Giri | Personal Portfolio">
+  <meta name="description" content="Amit Giri - DevOps and Web Developer Portfolio">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
   <style>
     body {
-      background: #fff;
-      color: #111;
+      background: #f6f8fa;
+      color: #222;
       font-family: 'Roboto', Arial, sans-serif;
       margin: 0;
       padding: 0;
-      line-height: 1.7;
     }
     .container {
-      max-width: 700px;
+      max-width: 850px;
       margin: 40px auto;
-      padding: 30px;
+      padding: 32px;
       background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+      border-radius: 10px;
+      box-shadow: 0 4px 28px rgba(0,0,0,0.12);
     }
     h1 {
       margin-top: 0;
-      font-size: 2.8em;
+      font-size: 2.6em;
       font-weight: 700;
-      letter-spacing: -2px;
-      border-bottom: 2px solid #222;
-      padding-bottom: 10px;
+      letter-spacing: -1px;
+      color: #2d3748;
     }
-    .bio {
-      font-size: 1.2em;
-      margin-top: 0.4em;
+    .subtitle {
+      font-size: 1.25em;
+      color: #0072b1;
+      font-weight: 500;
+      margin-bottom: 8px;
+    }
+    .contact, .section {
       margin-bottom: 2.2em;
     }
-    .links a {
-      color: #111;
-      text-decoration: underline;
-      margin-right: 20px;
+    .contact a, .links a {
+      color: #0072b1;
+      text-decoration: none;
+      margin-right: 18px;
       font-weight: 500;
+    }
+    .contact a:hover, .links a:hover {
+      text-decoration: underline;
+    }
+    .summary {
+      font-size: 1.15em;
+      margin-bottom: 16px;
+      color: #444;
+    }
+    h2 {
+      border-left: 4px solid #0072b1;
+      padding-left: 10px;
+      font-size: 1.5em;
+      margin-bottom: 0.8em;
+      color: #222;
+    }
+    ul, .skills-list {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 18px;
+      margin-bottom: 1em;
+    }
+    .skills-list li {
+      background: #f1f5f9;
+      padding: 6px 13px;
+      border-radius: 16px;
+      font-size: 1em;
+      color: #2d3748;
+      border: 1px solid #e2e8f0;
+    }
+    .exp, .edu, .project {
+      margin-bottom: 1.4em;
+    }
+    .exp-role, .project-title {
+      font-weight: 600;
+      color: #2d3748;
       font-size: 1.1em;
     }
-    .section {
-      margin-bottom: 2.5em;
+    .exp-org, .edu-school {
+      color: #0072b1;
+      font-weight: 500;
     }
-    .project-list {
-      list-style: none;
-      padding-left: 0;
+    .exp-date, .edu-date, .project-date {
+      float: right;
+      color: #888;
+      font-size: 0.97em;
+      font-weight: 400;
     }
-    .project-list li {
-      margin-bottom: 1.3em;
-    }
-    .project-list a {
-      color: #111;
-      font-size: 1.13em;
-      font-weight: 600;
-      text-decoration: none;
-    }
-    .project-list a:hover {
-      text-decoration: underline;
-    }
-    blockquote {
-      border-left: 3px solid #222;
-      margin: 1.5em 0;
-      padding-left: 1em;
+    .clearfix { clear: both; }
+    .project-stack {
+      font-size: 0.98em;
       color: #444;
-      font-style: italic;
+      margin-bottom: 2px;
     }
-    @media (max-width: 800px) {
-      .container {
-        margin: 10px;
-        padding: 15px;
-      }
+    .certs, .langs, .hobbies {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 22px;
+      margin: 0 0 1.2em 0;
+    }
+    .certs span, .langs span, .hobbies span {
+      background: #e6f2fb;
+      border-radius: 16px;
+      padding: 5px 13px;
+      color: #222;
+      font-size: 1em;
+      border: 1px solid #b5d6ea;
+    }
+    @media (max-width: 900px) {
+      .container { margin: 12px; padding: 16px; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Amit Giri</h1>
-    <div class="bio">
-      I'm a passionate developer focused on C# and .NET projects. I love building effective tools, solving problems, and exploring new ideas in programming.
+    <div class="subtitle">DevOps & Web Developer</div>
+    <div class="contact">
+      <b>Location:</b> Vrindavan, Uttar Pradesh<br>
+      <b>Email:</b> <a href="mailto:agiri3481@gmail.com">agiri3481@gmail.com</a> &bull; 
+      <b>Phone:</b> <a href="tel:+916397973079">+91 6397973079</a><br>
+      <b>LinkedIn:</b> <a href="https://linkedin.com/in/amit-giri-780048224" target="_blank">amit-giri-780048224</a> &bull;
+      <b>GitHub:</b> <a href="https://github.com/Amit123-ctrl" target="_blank">Amit123-ctrl</a>
     </div>
-    <div class="links">
-      <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn</a>
-      <a href="https://github.com/Amit123-ctrl" target="_blank">GitHub</a>
+
+    <div class="summary">
+      I'm a DevOps and web developer passionate about building robust, user-friendly web applications. I have experience with Docker, CI/CD, Google Cloud, MySQL, and Firebase. I focus on clean, efficient code to solve real-world problems and ensure scalable deployment. Eager to learn, innovate, and work on impactful projects!
     </div>
+
     <div class="section">
-      <h2>Featured Projects</h2>
-      <ul class="project-list">
-        <li>
-          <a href="https://github.com/Amit123-ctrl/CSharp-Assignments" target="_blank">CSharp-Assignments</a>
-          <div>Assignments and code samples for C# development.</div>
-        </li>
-        <li>
-          <a href="https://github.com/Amit123-ctrl/CSharp_Assingments" target="_blank">CSharp_Assingments</a>
-          <div>A collection of C# assignments for practice and learning.</div>
-        </li>
-        <li>
-          <a href="https://github.com/Amit123-ctrl/C--lab2-Asssignment-" target="_blank">C--lab2-Asssignment-</a>
-          <div>Lab 2 assignments focused on C# and problem-solving.</div>
-        </li>
-        <li>
-          <a href="https://github.com/Amit123-ctrl/CSharp-Lab2" target="_blank">CSharp-Lab2</a>
-          <div>Practical C# lab work and examples.</div>
-        </li>
-        <li>
-          <a href="https://github.com/Amit123-ctrl/Stopwatch" target="_blank">Stopwatch</a>
-          <div>A stopwatch app project.</div>
-        </li>
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>Git &amp; GitHub</li>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>Google Firebase</li>
+        <li>Google Cloud Platform (GCP)</li>
+        <li>REST API</li>
+        <li>MongoDB</li>
+        <li>MySQL</li>
+        <li>Cybersecurity</li>
+        <li>Problem Solving</li>
+        <li>Leadership</li>
+        <li>Event Management</li>
       </ul>
     </div>
+
     <div class="section">
-      <h2>About Me</h2>
-      <p>
-        I am a dedicated software developer, enthusiastic about crafting practical solutions and continually expanding my skill set. My interests include .NET and C# development, building efficient tools and applications, and learning new programming paradigms.
-      </p>
-      <blockquote>
-        “Code is like humor. When you have to explain it, it’s bad.” – Cory House
-      </blockquote>
+      <h2>Experience</h2>
+      <div class="exp">
+        <span class="exp-role">Technical Head</span> <span class="exp-org">@ Shri K.R. Memorial Public School</span>
+        <span class="exp-date">07/2023 - 12/2023</span>
+        <div class="clearfix"></div>
+        <ul>
+          <li>Managed and operated computer systems to efficiently oversee student records and attendance tracking.</li>
+          <li>Ensured accuracy and integrity of data through vigilant monitoring and verification of inputs.</li>
+          <li>Streamlined administrative processes by leveraging technology to support school operations.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Projects</h2>
+      <div class="project">
+        <span class="project-title">Grammar and Spelling App</span>
+        <span class="project-date">Python, Flask, Streamlit, SymSpell | 01/2025 - 03/2025</span>
+        <div class="clearfix"></div>
+        <div class="project-stack">
+          Real-time web app for grammar/spell correction. Python backend, SymSpell integration, scalable and modular code.
+        </div>
+      </div>
+      <div class="project">
+        <span class="project-title">Portfolio Website</span>
+        <span class="project-date">HTML, CSS, JavaScript | 10/2024 - 12/2024</span>
+        <div class="clearfix"></div>
+        <div class="project-stack">
+          Designed and built a responsive portfolio to showcase web projects and skills. Focused on UX, accessibility, and modern design.
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="edu">
+        <span class="edu-school">Master's of Computer Application</span> <span class="edu-date">GLA University | 2024 - Present</span>
+        <div class="clearfix"></div>
+        <span class="edu-school">Bachelor's of Computer Science</span> <span class="edu-date">B.S.A. College | 2019 - 2022</span>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <div class="certs">
+        <span>MongoDB (MongoDB)</span>
+        <span>CyberSecurity (Netacad)</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <div class="langs">
+        <span>English - Fluent</span>
+        <span>Hindi - Native</span>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Hobbies</h2>
+      <div class="hobbies">
+        <span>Reading Manga</span>
+        <span>Learning New Languages</span>
+        <span>Playing Cricket</span>
+      </div>
     </div>
   </div>
 </body>
